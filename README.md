@@ -152,9 +152,9 @@ To retrain from scratch, open `ML_Sleep_Disorders_XG_AI.ipynb` and run all cells
 
 | File | Purpose |
 |---|---|
-| `ML_Sleep_Disorders_XG_AI.ipynb` | Cleaning, model comparison, evaluation, explanation method, saving the model |
+| `ML_Sleep_Disorders_XG_AI (2).ipynb` | Cleaning, model comparison, evaluation, explanation method, saving the model |
 | `app.py` | The Streamlit app with the three views |
-| `sleep_model.joblib` | Saved model pipeline (preprocessing and SVM) |
+| `sleep_model (1).joblib` | Saved model pipeline (preprocessing and SVM) |
 | `clean_data.csv` | De-duplicated dataset used by the app |
 | `model_metadata.json` | Feature lists, value ranges and summary figures used by the app |
 | `model_comparison.csv`, `global_importance.csv` | Saved results |
