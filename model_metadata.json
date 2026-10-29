@@ -1,0 +1,124 @@
+{
+  "deployed_model": "SVM",
+  "classes": [
+    "Insomnia",
+    "None",
+    "Sleep Apnea"
+  ],
+  "features": [
+    "gender",
+    "occupation",
+    "bmi_category",
+    "age",
+    "sleep_duration",
+    "sleep_quality",
+    "physical_activity",
+    "stress_level",
+    "systolic",
+    "diastolic",
+    "heart_rate",
+    "daily_steps"
+  ],
+  "cat_cols": [
+    "gender",
+    "occupation",
+    "bmi_category"
+  ],
+  "num_cols": [
+    "age",
+    "sleep_duration",
+    "sleep_quality",
+    "physical_activity",
+    "stress_level",
+    "systolic",
+    "diastolic",
+    "heart_rate",
+    "daily_steps"
+  ],
+  "categories": {
+    "gender": [
+      "Female",
+      "Male"
+    ],
+    "occupation": [
+      "Accountant",
+      "Doctor",
+      "Engineer",
+      "Lawyer",
+      "Manager",
+      "Nurse",
+      "Sales Representative",
+      "Salesperson",
+      "Scientist",
+      "Software Engineer",
+      "Teacher"
+    ],
+    "bmi_category": [
+      "Normal",
+      "Obese",
+      "Overweight"
+    ]
+  },
+  "numeric_ranges": {
+    "age": {
+      "min": 27.0,
+      "max": 59.0,
+      "median": 41.0
+    },
+    "sleep_duration": {
+      "min": 5.8,
+      "max": 8.5,
+      "median": 7.15
+    },
+    "sleep_quality": {
+      "min": 4.0,
+      "max": 9.0,
+      "median": 7.0
+    },
+    "physical_activity": {
+      "min": 30.0,
+      "max": 90.0,
+      "median": 60.0
+    },
+    "stress_level": {
+      "min": 3.0,
+      "max": 8.0,
+      "median": 6.0
+    },
+    "systolic": {
+      "min": 115.0,
+      "max": 142.0,
+      "median": 130.0
+    },
+    "diastolic": {
+      "min": 75.0,
+      "max": 95.0,
+      "median": 85.0
+    },
+    "heart_rate": {
+      "min": 65.0,
+      "max": 86.0,
+      "median": 70.0
+    },
+    "daily_steps": {
+      "min": 3000.0,
+      "max": 10000.0,
+      "median": 7000.0
+    }
+  },
+  "data_summary": {
+    "rows_original": 374,
+    "rows_after_dedup": 132,
+    "duplicate_test_leak_pct_naive_split": 88.3,
+    "naive_rf_accuracy": 0.947
+  },
+  "cv_results": {
+    "Baseline (majority class)": 0.553,
+    "KNN": 0.692,
+    "SVM": 0.707,
+    "Decision Tree": 0.515,
+    "Random Forest": 0.591,
+    "ANN (MLP)": 0.669,
+    "Voting (DT + Bagging RF)": 0.563
+  }
+}
