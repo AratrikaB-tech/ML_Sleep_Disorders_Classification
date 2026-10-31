@@ -7,6 +7,9 @@ Built as an AI internship project at XTRAGRAD AI by ARATRIKA BHATTACHARYA.
 
 > **Screening and decision support only. This is not a diagnosis and does not replace a doctor.** The model is trained on a small synthetic dataset.
 
+**Live Demo** 
+https://mlsleepdisordersclassification-fxyeguor7sh8w3tjysee5r.streamlit.app/
+
 ---
 
 ## 1. Project Overview
